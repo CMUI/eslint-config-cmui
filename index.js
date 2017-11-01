@@ -1,6 +1,4 @@
 let config = {
-	root: true,
-	parser: 'babel-eslint',
 	parserOptions: {
 		ecmaVersion: 2017,
 		sourceType: 'module',
@@ -8,21 +6,10 @@ let config = {
 			impliedStrict: true,
 		},
 	},
-	globals: {
-		'jQuery': false,
-		'Zepto': false,
-		'$': false,
-		'_': false,
-		'gearbox': false,
-		'CMUI': false,
-		'tracker': false,
-		'Cookie': false,
-	},
 	env: {
 		'browser': true,
 		'es6': true,
 	},
-	rules: {},
 }
 let rulesPossibleErrors = {
 	'for-direction': [2],
@@ -30,7 +17,7 @@ let rulesPossibleErrors = {
 	// 'no-await-in-loop': [0]
 	'no-compare-neg-zero': [2],
 	'no-cond-assign': [2, 'always'],
-	// 'no-console': [0],
+	'no-console': [2],
 	'no-constant-condition': [2],
 	'no-control-regex': [2],
 	'no-debugger': [2],

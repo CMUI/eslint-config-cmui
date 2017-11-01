@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cmui",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "homepage": "https://github.com/CMUI/eslint-config-cmui",
   "repository": "CMUI/eslint-config-cmui",
   "author": "cssmagic <cssmagic.cn@gmail.com>",
